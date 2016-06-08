@@ -1,0 +1,374 @@
+{
+	"resources": [
+        {
+            "name": "loading_bg",
+            "type": "image",
+            "url": "assets/texture/loading_bg.jpg"
+        },
+        {
+            "name":"texture01",
+            "type":"sheet",
+            "url":"assets/texture/texture01.json"
+        },
+        {
+            "name":"NumberTexture",
+            "type":"sheet",
+            "url":"assets/texture/NumberTexture.json"
+        },
+        {
+            "name":"common",
+            "type":"sheet",
+            "url":"assets/texture/common.json"
+        },
+        {
+            "name":"role_2001_texture_png",
+            "type":"image",
+            "url":"assets/DB/role_2001_texture.png"
+        },
+        {
+            "name":"role_2001_texture_json",
+            "type":"json",
+            "url":"assets/DB/role_2001_texture.json"
+        },
+        {
+            "name":"role_2001_json",
+            "type":"json",
+            "url":"assets/DB/role_2001.json"
+        },
+        {
+            "name":"role_2002_texture_png",
+            "type":"image",
+            "url":"assets/DB/role_2002_texture.png"
+        },
+        {
+            "name":"role_2002_texture_json",
+            "type":"json",
+            "url":"assets/DB/role_2002_texture.json"
+        },
+        {
+            "name":"role_2002_json",
+            "type":"json",
+            "url":"assets/DB/role_2002.json"
+        },
+        {
+            "name":"role_3003_texture_png",
+            "type":"image",
+            "url":"assets/DB/role_3003_texture.png"
+        },
+        {
+            "name":"role_3003_texture_json",
+            "type":"json",
+            "url":"assets/DB/role_3003_texture.json"
+        },
+        {
+            "name":"role_3003_json",
+            "type":"json",
+            "url":"assets/DB/role_3003.json"
+        },
+        {
+            "name":"role_3001_texture_png",
+            "type":"image",
+            "url":"assets/DB/role_3001_texture.png"
+        },
+        {
+            "name":"role_3001_texture_json",
+            "type":"json",
+            "url":"assets/DB/role_3001_texture.json"
+        },
+        {
+            "name":"role_3001_json",
+            "type":"json",
+            "url":"assets/DB/role_3001.json"
+        },
+        {
+            "name":"role_3002_texture_png",
+            "type":"image",
+            "url":"assets/DB/role_3002_texture.png"
+        },
+        {
+            "name":"role_3002_texture_json",
+            "type":"json",
+            "url":"assets/DB/role_3002_texture.json"
+        },
+        {
+            "name":"role_3002_json",
+            "type":"json",
+            "url":"assets/DB/role_3002.json"
+        },
+        {
+            "name":"role_3004_texture_png",
+            "type":"image",
+            "url":"assets/DB/role_3004_texture.png"
+        },
+        {
+            "name":"role_3004_texture_json",
+            "type":"json",
+            "url":"assets/DB/role_3004_texture.json"
+        },
+        {
+            "name":"role_3004_json",
+            "type":"json",
+            "url":"assets/DB/role_3004.json"
+        },
+        {
+            "name":"role_3005_texture_png",
+            "type":"image",
+            "url":"assets/DB/role_3005_texture.png"
+        },
+        {
+            "name":"role_3005_texture_json",
+            "type":"json",
+            "url":"assets/DB/role_3005_texture.json"
+        },
+        {
+            "name":"role_3005_json",
+            "type":"json",
+            "url":"assets/DB/role_3005.json"
+        },
+        {
+            "name":"role_4001_texture_png",
+            "type":"image",
+            "url":"assets/DB/role_4001_texture.png"
+        },
+        {
+            "name":"role_4001_texture_json",
+            "type":"json",
+            "url":"assets/DB/role_4001_texture.json"
+        },
+        {
+            "name":"role_4001_json",
+            "type":"json",
+            "url":"assets/DB/role_4001.json"
+        },
+        {
+            "name":"role_4002_texture_png",
+            "type":"image",
+            "url":"assets/DB/role_4002_texture.png"
+        },
+        {
+            "name":"role_4002_texture_json",
+            "type":"json",
+            "url":"assets/DB/role_4002_texture.json"
+        },
+        {
+            "name":"role_4002_json",
+            "type":"json",
+            "url":"assets/DB/role_4002.json"
+        },
+        {
+            "name":"role_5001_texture_png",
+            "type":"image",
+            "url":"assets/DB/role_5001_texture.png"
+        },
+        {
+            "name":"role_5001_texture_json",
+            "type":"json",
+            "url":"assets/DB/role_5001_texture.json"
+        },
+        {
+            "name":"role_5001_json",
+            "type":"json",
+            "url":"assets/DB/role_5001.json"
+        },
+        {
+            "name":"skill_6001_texture_png",
+            "type":"image",
+            "url":"assets/DB/skill_6001_texture.png"
+        },
+        {
+            "name":"skill_6001_texture_json",
+            "type":"json",
+            "url":"assets/DB/skill_6001_texture.json"
+        },
+        {
+            "name":"skill_6001_json",
+            "type":"json",
+            "url":"assets/DB/skill_6001.json"
+        },
+        {
+            "name":"skill_6002_texture_png",
+            "type":"image",
+            "url":"assets/DB/skill_6002_texture.png"
+        },
+        {
+            "name":"skill_6002_texture_json",
+            "type":"json",
+            "url":"assets/DB/skill_6002_texture.json"
+        },
+        {
+            "name":"skill_6002_json",
+            "type":"json",
+            "url":"assets/DB/skill_6002.json"
+        },
+        {
+            "name":"skill_6003_texture_png",
+            "type":"image",
+            "url":"assets/DB/skill_6003_texture.png"
+        },
+        {
+            "name":"skill_6003_texture_json",
+            "type":"json",
+            "url":"assets/DB/skill_6003_texture.json"
+        },
+        {
+            "name":"skill_6003_json",
+            "type":"json",
+            "url":"assets/DB/skill_6003.json"
+        },
+        {
+            "name":"skill_6004_texture_png",
+            "type":"image",
+            "url":"assets/DB/skill_6004_texture.png"
+        },
+        {
+            "name":"skill_6004_texture_json",
+            "type":"json",
+            "url":"assets/DB/skill_6004_texture.json"
+        },
+        {
+            "name":"skill_6004_json",
+            "type":"json",
+            "url":"assets/DB/skill_6004.json"
+        },
+        {
+            "name":"skill_6005_texture_png",
+            "type":"image",
+            "url":"assets/DB/skill_6005_texture.png"
+        },
+        {
+            "name":"skill_6005_texture_json",
+            "type":"json",
+            "url":"assets/DB/skill_6005_texture.json"
+        },
+        {
+            "name":"skill_6005_json",
+            "type":"json",
+            "url":"assets/DB/skill_6001.json"
+        },
+		{
+            "name":"ui_skill_texture_png",
+            "type":"image",
+            "url":"assets/DB/ui_skill_texture.png"
+        },
+        {
+            "name":"ui_skill_texture_json",
+            "type":"json",
+            "url":"assets/DB/ui_skill_texture.json"
+        },
+        {
+            "name":"ui_skill_json",
+            "type":"json",
+            "url":"assets/DB/ui_skill.json"
+        },
+        {
+            "name":"Map1_1",
+            "type":"image",
+            "url":"assets/texture/Map1_1.png"
+        },
+        {
+            "name":"Map1_2",
+            "type":"image",
+            "url":"assets/texture/Map1_2.png"
+        },
+        {
+            "name":"Map1_3",
+            "type":"image",
+            "url":"assets/texture/Map1_3.png"
+        },
+        {
+            "name":"Map1_4",
+            "type":"image",
+            "url":"assets/texture/Map1_4.png"
+        },
+		{
+			"name": "description",
+			"type": "json",
+			"url": "config/description.json"
+		},
+        {
+            "name": "load_bar",
+			"type": "image",
+			"url": "assets/texture/load_bar.png"
+        },
+        {
+            "name": "loading_mc",
+			"type": "image",
+			"url": "assets/texture/loading_mc.png"
+        },
+        {
+            "name": "controll_bg",
+            "type": "image",
+            "url": "assets/texture/controll_bg.png"
+        },
+        {
+            "name": "timer_bar",
+            "type": "image",
+            "url": "assets/texture/timer_bar.png"
+        },
+        {
+            "name": "timer_bar_bg",
+            "type": "image",
+            "url": "assets/texture/timer_bar_bg.png"
+        },
+        {
+            "name": "level_dat_json",
+            "type": "json",
+            "url": "config/level_dat.json"
+        },
+        {
+            "name": "hero_dat_json",
+            "type": "json",
+            "url": "config/hero_dat.json"
+        },
+        {
+            "name": "ani_demo_json",
+            "type": "json",
+            "url": "assets/animate/ani_demo.json"
+        },
+        {
+            "name": "ani_demo_png",
+            "type": "image",
+            "url": "assets/animate/ani_demo.png"
+        },
+        {
+            "name": "load_bar_bg",
+            "type": "image",
+            "url": "assets/texture/load_bar_bg.png"
+        },
+        {
+            "name": "loading_fnt1",
+            "type": "image",
+            "url": "assets/texture/loading_fnt1.png"
+        },
+        {
+            "name": "part01_json",
+            "type": "json",
+            "url": "assets/particle/part01.json"
+        },
+        {
+            "name": "part01_png",
+            "type": "image",
+            "url": "assets/particle/part01.png"
+        },
+		{
+            "name": "button_on_png",
+            "type": "image",
+            "url": "assets/button_on.png"
+        },
+		{
+            "name": "button_off_png",
+            "type": "image",
+            "url": "assets/button_off.png"
+        }
+	],
+	"groups": [
+		{
+			"name": "main_load",
+			"keys": "button_on_png, button_off_png, Map1_1,Map1_2,Map1_3,Map1_4,role_2001_texture_png,role_2001_texture_json,role_2001_json,role_2002_texture_png,role_2002_texture_json,role_2002_json,texture01,controll_bg,timer_bar,timer_bar_bg,role_3003_texture_png,role_3003_texture_json,role_3003_json,role_3001_texture_png,role_3001_texture_json,role_3001_json,role_3002_texture_png,role_3002_texture_json,role_3002_json,role_3004_texture_png,role_3004_texture_json,role_3004_json,role_3005_texture_png,role_3005_texture_json,role_3005_json,hero_dat_json,role_4001_texture_png,role_4001_texture_json,role_4001_json,role_4002_texture_png,role_4002_texture_json,role_4002_json,role_5001_texture_png,role_5001_texture_json,role_5001_json,skill_6001_texture_png,skill_6001_texture_json,skill_6001_json,skill_6002_texture_png,skill_6002_texture_json,skill_6002_json,skill_6003_texture_png,skill_6003_texture_json,skill_6003_json,skill_6004_texture_png,skill_6004_texture_json,skill_6004_json,skill_6005_texture_png,skill_6005_texture_json,skill_6005_json,ani_demo_json,ani_demo_png,part01_json,part01_png,ui_skill_texture_png,ui_skill_texture_json,ui_skill_json,NumberTexture,common"
+		},
+        {
+            "name": "preload",
+            "keys": "loading_bg,load_bar,loading_mc,load_bar_bg,loading_fnt1"
+        }
+	]
+}
