@@ -488,7 +488,7 @@
 			{
 				"defaultHeight":1136,
 				"defaultWidth":640,
-				"description":"创建一个Egret Cocos项目，包括了EgretCocos的全部框架内容",
+				"description":"创建一个Egret Cocos项目，包括了EgretCocos的全部框架内容，祝使用的开心",
 				"displayName":"Egret Cocos 项目",
 				"language":"TypeScript",
 				"modules":[
