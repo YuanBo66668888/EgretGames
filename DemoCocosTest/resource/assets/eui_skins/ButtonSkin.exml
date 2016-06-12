@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<e:Skin class="skins.ButtonSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="74">
-    <e:Image width="168" height="72" scale9Grid="1,3,8,8" alpha.disabled="0.5"
-            
-             source.down="button_off_png" source="button_on_png"/>
-</e:Skin>

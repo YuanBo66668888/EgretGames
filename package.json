@@ -497,7 +497,9 @@
 					"eui",
 					"res",
 					"tween",
-					"dragonBones"
+					"dragonBones",
+					"particle",
+					"socket"
 				],
 				"name":"egretcocos",
 				"tag":"game,egret,cocos"
