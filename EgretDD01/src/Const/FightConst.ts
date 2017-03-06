@@ -1,0 +1,4 @@
+class FightConst {
+	public constructor() {
+	}
+}

@@ -1,0 +1,4 @@
+class LoadingConst {
+	public constructor() {
+	}
+}

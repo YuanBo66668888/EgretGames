@@ -1,0 +1,12 @@
+[
+{"id":100,"next_id":1,"award":[]},
+{"id":1,"next_id":2,"award":[{"prop":103,"num":300},{"prop":104,"num":200},{"prop":105,"num":200}]},
+{"id":2,"next_id":3,"award":[{"prop":106,"num":510},{"prop":104,"num":100},{"prop":105,"num":100}]},
+{"id":3,"next_id":4,"award":[]},
+{"id":4,"next_id":5,"award":[{"prop":104,"num":400},{"prop":105,"num":400}]},
+{"id":5,"next_id":6,"award":[{"prop":103,"num":600},{"prop":106,"num":300}]},
+{"id":6,"next_id":7,"award":[]},
+{"id":7,"next_id":8,"award":[]},
+{"id":8,"next_id":9,"award":[]},
+{"id":9,"next_id":999,"award":[]}
+]

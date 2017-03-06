@@ -1,0 +1,4 @@
+class JehadController {
+	public constructor() {
+	}
+}

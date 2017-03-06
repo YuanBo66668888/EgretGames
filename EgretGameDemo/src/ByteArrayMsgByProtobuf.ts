@@ -1,0 +1,4 @@
+class ByteArrayMsgByProtobuf {
+	public constructor() {
+	}
+}

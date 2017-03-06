@@ -1,0 +1,295 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,achieve_json,activity_json,arch_json,BeAtkHint_json,CertificationStrength_json,consume_json,ContinuousLanding_json,copy_json,equip_json,error_json,exp_json,global_json,guideId_json,guideTxt_json,help_json,InvitedAward_json,language_json,loadingHint_json,medal_json,miracle_json,notice_json,notice_title_json,prop_json,propBox_json,RndEvent_json,scene_json,science_json,shop_json,shopActive_json,sign_json,soldier_json",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "achieve_json",
+			"type": "json",
+			"url": "config/achieve.json"
+		},
+		{
+			"name": "activity_json",
+			"type": "json",
+			"url": "config/activity.json"
+		},
+		{
+			"name": "arch_json",
+			"type": "json",
+			"url": "config/arch.json"
+		},
+		{
+			"name": "BeAtkHint_json",
+			"type": "json",
+			"url": "config/BeAtkHint.json"
+		},
+		{
+			"name": "CertificationStrength_json",
+			"type": "json",
+			"url": "config/CertificationStrength.json"
+		},
+		{
+			"name": "consume_json",
+			"type": "json",
+			"url": "config/consume.json"
+		},
+		{
+			"name": "ContinuousLanding_json",
+			"type": "json",
+			"url": "config/ContinuousLanding.json"
+		},
+		{
+			"name": "copy_json",
+			"type": "json",
+			"url": "config/copy.json"
+		},
+		{
+			"name": "equip_json",
+			"type": "json",
+			"url": "config/equip.json"
+		},
+		{
+			"name": "error_json",
+			"type": "json",
+			"url": "config/error.json"
+		},
+		{
+			"name": "exp_json",
+			"type": "json",
+			"url": "config/exp.json"
+		},
+		{
+			"name": "global_json",
+			"type": "json",
+			"url": "config/global.json"
+		},
+		{
+			"name": "guideId_json",
+			"type": "json",
+			"url": "config/guideId.json"
+		},
+		{
+			"name": "guideTxt_json",
+			"type": "json",
+			"url": "config/guideTxt.json"
+		},
+		{
+			"name": "help_json",
+			"type": "json",
+			"url": "config/help.json"
+		},
+		{
+			"name": "InvitedAward_json",
+			"type": "json",
+			"url": "config/InvitedAward.json"
+		},
+		{
+			"name": "language_json",
+			"type": "json",
+			"url": "config/language.json"
+		},
+		{
+			"name": "loadingHint_json",
+			"type": "json",
+			"url": "config/loadingHint.json"
+		},
+		{
+			"name": "medal_json",
+			"type": "json",
+			"url": "config/medal.json"
+		},
+		{
+			"name": "miracle_json",
+			"type": "json",
+			"url": "config/miracle.json"
+		},
+		{
+			"name": "notice_json",
+			"type": "json",
+			"url": "config/notice.json"
+		},
+		{
+			"name": "notice_title_json",
+			"type": "json",
+			"url": "config/notice_title.json"
+		},
+		{
+			"name": "prop_json",
+			"type": "json",
+			"url": "config/prop.json"
+		},
+		{
+			"name": "propBox_json",
+			"type": "json",
+			"url": "config/propBox.json"
+		},
+		{
+			"name": "RndEvent_json",
+			"type": "json",
+			"url": "config/RndEvent.json"
+		},
+		{
+			"name": "scene_json",
+			"type": "json",
+			"url": "config/scene.json"
+		},
+		{
+			"name": "science_json",
+			"type": "json",
+			"url": "config/science.json"
+		},
+		{
+			"name": "shop_json",
+			"type": "json",
+			"url": "config/shop.json"
+		},
+		{
+			"name": "shopActive_json",
+			"type": "json",
+			"url": "config/shopActive.json"
+		},
+		{
+			"name": "sign_json",
+			"type": "json",
+			"url": "config/sign.json"
+		},
+		{
+			"name": "soldier_json",
+			"type": "json",
+			"url": "config/soldier.json"
+		}
+	]
+}

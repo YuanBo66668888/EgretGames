@@ -1,0 +1,12 @@
+[
+{"id":1,"name":"光之神像","icon":"mirac_1a_png","icon_unfnsh":"mirac_1b_png","ptype":1,"affect":1,"next_id":2,"cond":"消耗材料直接建造","desc":"每场战斗结束后复活10%死亡兵种","need":[{"prop":101,"num":500}],"value":0.1,"cd_time":18000,"exp":20000},
+{"id":2,"name":"招魂神殿","icon":"mirac_2a_png","icon_unfnsh":"mirac_2b_png","ptype":1,"affect":1,"next_id":3,"cond":"需要先建造奇迹—光之神像","desc":"每场战斗结束后复活15%死亡兵种","need":[{"prop":101,"num":2000}],"value":0.15,"cd_time":43200,"exp":20000},
+{"id":3,"name":"圣光教堂","icon":"mirac_3a_png","icon_unfnsh":"mirac_3b_png","ptype":1,"affect":1,"next_id":0,"cond":"需要先建造奇迹—招魂神殿","desc":"每场战斗结束后复活20%死亡兵种","need":[{"prop":101,"num":5000}],"value":0.2,"cd_time":86400,"exp":20000},
+{"id":4,"name":"农神图腾","icon":"mirac_4a_png","icon_unfnsh":"mirac_4b_png","ptype":2,"affect":2,"next_id":5,"cond":"消耗材料直接建造","desc":"增加农场10%的生产速度","need":[{"prop":110,"num":500}],"value":0.1,"cd_time":259200,"exp":20000},
+{"id":5,"name":"墨丘利神像","icon":"mirac_7a_png","icon_unfnsh":"mirac_7b_png","ptype":2,"affect":3,"next_id":6,"cond":"需要先建造奇迹—农神图腾","desc":"增加伐木场10%的生产速度","need":[{"prop":110,"num":500}],"value":0.1,"cd_time":259200,"exp":20000},
+{"id":6,"name":"巨锤石像","icon":"mirac_6a_png","icon_unfnsh":"mirac_6b_png","ptype":2,"affect":4,"next_id":7,"cond":"需要先建造奇迹—墨丘利神像","desc":"增加采石场10%的生产速度","need":[{"prop":110,"num":500}],"value":0.1,"cd_time":259200,"exp":20000},
+{"id":7,"name":"魔幻水井","icon":"mirac_10a_png","icon_unfnsh":"mirac_10b_png","ptype":2,"affect":5,"next_id":8,"cond":"需要先建造奇迹—巨锤石像","desc":"减少建造农场的消耗20%","need":[{"prop":110,"num":500}],"value":0.2,"cd_time":259200,"exp":20000},
+{"id":8,"name":"瑟尔斯神像","icon":"mirac_8a_png","icon_unfnsh":"mirac_8b_png","ptype":2,"affect":6,"next_id":9,"cond":"需要先建造奇迹—魔幻水井","desc":"减少建造伐木场的消耗20%","need":[{"prop":110,"num":500}],"value":0.2,"cd_time":259200,"exp":20000},
+{"id":9,"name":"神石祭坛","icon":"mirac_9a_png","icon_unfnsh":"mirac_9b_png","ptype":2,"affect":7,"next_id":10,"cond":"需要先建造奇迹—瑟尔斯神像","desc":"减少建造采石场的消耗20%","need":[{"prop":110,"num":500}],"value":0.2,"cd_time":259200,"exp":20000},
+{"id":10,"name":"战神神殿","icon":"mirac_5a_png","icon_unfnsh":"mirac_5b_png","ptype":2,"affect":8,"next_id":0,"cond":"需要先建造奇迹—神石祭坛","desc":"减少军队招募的冷却时间30%","need":[{"prop":110,"num":2000}],"value":0.3,"cd_time":259200,"exp":20000}
+]

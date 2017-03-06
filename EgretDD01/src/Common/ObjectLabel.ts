@@ -1,0 +1,4 @@
+class ObjectLabel {
+	public constructor() {
+	}
+}

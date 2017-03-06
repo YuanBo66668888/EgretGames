@@ -1,0 +1,40 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,coinflash_tex_json,coinflash_tex_png,coinflash_ske_json",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/coin/coinflash_tex.png",
+			"type": "image",
+			"name": "coinflash_tex_png"
+		},
+		{
+			"url": "assets/coin/coinflash_tex.json",
+			"type": "json",
+			"name": "coinflash_tex_json"
+		},
+		{
+			"url": "assets/coin/coinflash_ske.json",
+			"type": "json",
+			"name": "coinflash_ske_json"
+		}
+	]
+}

@@ -1,0 +1,4 @@
+class LoadingController {
+	public constructor() {
+	}
+}

@@ -1,0 +1,4 @@
+class DH {
+	public constructor() {
+	}
+}

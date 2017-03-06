@@ -1,0 +1,4 @@
+class GameMain {
+	public constructor() {
+	}
+}

@@ -1,0 +1,4 @@
+class MainConst {
+	public constructor() {
+	}
+}

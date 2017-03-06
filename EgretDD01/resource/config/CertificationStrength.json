@@ -1,0 +1,8 @@
+[
+{"id":1,"need_medal":5,"item":[{"prop":60000,"num":20},{"prop":60101,"num":20},{"prop":50000,"num":1}]},
+{"id":2,"need_medal":9,"item":[{"prop":60000,"num":50},{"prop":60101,"num":50},{"prop":50000,"num":2}]},
+{"id":3,"need_medal":13,"item":[{"prop":60000,"num":100},{"prop":60101,"num":100},{"prop":50001,"num":2},{"prop":50002,"num":1}]},
+{"id":4,"need_medal":17,"item":[{"prop":60006,"num":200},{"prop":60107,"num":200},{"prop":50001,"num":5},{"prop":50002,"num":2}]},
+{"id":5,"need_medal":21,"item":[{"prop":60207,"num":300},{"prop":60307,"num":300},{"prop":50001,"num":10},{"prop":50002,"num":5}]},
+{"id":6,"need_medal":25,"item":[{"prop":60601,"num":10},{"prop":60607,"num":10},{"prop":50001,"num":15},{"prop":50002,"num":10}]}
+]

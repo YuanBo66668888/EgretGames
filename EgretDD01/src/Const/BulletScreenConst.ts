@@ -1,0 +1,4 @@
+class BulletScreenConst {
+	public constructor() {
+	}
+}

@@ -1,0 +1,9 @@
+[
+{"id":101,"next_id":102,"type":1,"time":4,"content":[{"price":20,"gain_army":[],"army_para":[],"gain_prop":[{"prop":103,"icon":"shop_204_png","num":10000},{"prop":104,"icon":"shop_205_png","num":10000},{"prop":105,"icon":"shop_206_png","num":10000},{"prop":106,"icon":"shop_305_png","num":10000}]}]},
+{"id":102,"next_id":103,"type":1,"time":18,"content":[{"price":200,"gain_army":[{"army":111,"num":3000},{"army":112,"num":1000}],"army_para":[],"gain_prop":[{"prop":104,"icon":"shop_208_png","num":50000},{"prop":105,"icon":"shop_209_png","num":50000}]}]},
+{"id":103,"next_id":104,"type":1,"time":24,"content":[{"price":200,"gain_army":[{"army":111,"num":10000},{"army":112,"num":10000},{"army":113,"num":5000}],"army_para":[],"gain_prop":[{"prop":104,"icon":"shop_208_png","num":100000}]}]},
+{"id":104,"next_id":105,"type":1,"time":24,"content":[{"price":300,"gain_army":[{"army":113,"num":20000},{"army":114,"num":10}],"army_para":[],"gain_prop":[{"prop":106,"icon":"shop_309_png","num":100000},{"prop":107,"icon":"shop_310_png","num":100000}]}]},
+{"id":105,"next_id":201,"type":1,"time":24,"content":[{"price":300,"gain_army":[{"army":111,"num":30000},{"army":112,"num":20000},{"army":113,"num":10000},{"army":114,"num":10}],"army_para":[],"gain_prop":[]}]},
+{"id":201,"next_id":202,"type":2,"time":24,"content":[{"price":350,"gain_army":[],"army_para":[{"army":111,"par1":20000,"par2":30000},{"army":112,"par1":20000,"par2":30000},{"army":113,"par1":20000,"par2":30000}],"gain_prop":[]}]},
+{"id":202,"next_id":201,"type":2,"time":24,"content":[{"price":350,"gain_army":[],"army_para":[{"army":114,"par1":40,"par2":0}],"gain_prop":[{"prop":101,"icon":"shop_102_png","num":150}]}]}
+]

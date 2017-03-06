@@ -1,0 +1,5 @@
+[
+{"id":1,"type":"送道具；没有二次结果","icon":"pic_randomevents1_png","pre":0,"desc":"意外发现一个装有金币的宝箱！","bttn":"打开"},
+{"id":2,"type":"小恶魔的馈赠","icon":"pic_randomevents2_png","pre":1,"desc":"听说你是个英明的领主，这些物资送给你：","bttn":"领取"},
+{"id":3,"type":"道具赌博","icon":"army_1011_png","pre":1,"desc":"一群冒险者希望你资助他们一些物资，并承诺发现宝藏后会与你分享。是否要资助他们","bttn":""}
+]

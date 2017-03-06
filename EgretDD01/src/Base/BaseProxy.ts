@@ -1,0 +1,4 @@
+class BaseProxy {
+	public constructor() {
+	}
+}

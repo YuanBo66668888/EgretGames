@@ -1,0 +1,13 @@
+{
+    "IsDebug":true,
+	"IsWan8Channel":false,
+    "LoginHost":"test.setagame.com",
+    "LoginPort":"18505",
+    "ProtoFile":"simple_proto",
+    "ProtoConfig":"simple_config",
+	"version":"2.0.1",
+	"SDK":"1",
+	"language":"chinese",
+	"noticeUrl":"resource/chinese/config/notice.json",
+	"noticeTitleUrl":"resource/chinese/config/notice_title.json"
+}

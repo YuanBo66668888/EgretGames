@@ -1,0 +1,16 @@
+[
+{"id":101,"name":"农场","icon":"arch_101_png","desc":"食物生产速度","science":0,"stype":1,"ptype":1,"affect":3,"value":1,"need":[{"prop":103,"par1":30,"par2":50,"par3":-30},{"prop":104,"par1":30,"par2":50,"par3":-30}],"cd_time":3.5,"exp":10,"rate":0},
+{"id":102,"name":"伐木场","icon":"arch_102_png","desc":"木头生产速度","science":0,"stype":1,"ptype":1,"affect":4,"value":1,"need":[{"prop":103,"par1":30,"par2":50,"par3":-30},{"prop":105,"par1":30,"par2":50,"par3":-30}],"cd_time":4,"exp":10,"rate":0},
+{"id":103,"name":"采石场","icon":"arch_103_png","desc":"石头生产速度","science":0,"stype":1,"ptype":1,"affect":5,"value":1,"need":[{"prop":103,"par1":30,"par2":50,"par3":-30},{"prop":105,"par1":30,"par2":50,"par3":-30}],"cd_time":4.5,"exp":10,"rate":0},
+{"id":104,"name":"铁匠铺","icon":"arch_104_png","desc":"金属转化速度","science":0,"stype":2,"ptype":1,"affect":6,"value":1,"need":[{"prop":104,"par1":400,"par2":-200,"par3":0},{"prop":105,"par1":400,"par2":-200,"par3":0}],"cd_time":5,"exp":10,"rate":20},
+{"id":105,"name":"皮革厂","icon":"arch_105_png","desc":"皮革转化速度","science":101,"stype":2,"ptype":1,"affect":7,"value":1,"need":[{"prop":104,"par1":400,"par2":-200,"par3":0},{"prop":105,"par1":400,"par2":-200,"par3":0}],"cd_time":5.5,"exp":10,"rate":20},
+{"id":106,"name":"马厩","icon":"arch_106_png","desc":"马匹转化速度","science":102,"stype":2,"ptype":1,"affect":8,"value":1,"need":[{"prop":104,"par1":400,"par2":-200,"par3":0},{"prop":105,"par1":400,"par2":-200,"par3":0}],"cd_time":6,"exp":10,"rate":20},
+{"id":107,"name":"龙晶矿","icon":"arch_107_png","desc":"龙晶转化速度","science":103,"stype":2,"ptype":1,"affect":9,"value":1,"need":[{"prop":105,"par1":10000,"par2":0,"par3":0}],"cd_time":10,"exp":10,"rate":5},
+{"id":108,"name":"谷仓","icon":"arch_108_png","desc":"食物存储量增加{0}","science":104,"stype":3,"ptype":2,"affect":3,"value":1000,"need":[{"prop":104,"par1":0,"par2":50,"par3":350}],"cd_time":5.5,"exp":10,"rate":0},
+{"id":109,"name":"木料存储棚","icon":"arch_109_png","desc":"木头存储量增加{0}","science":0,"stype":3,"ptype":2,"affect":4,"value":1000,"need":[{"prop":104,"par1":0,"par2":50,"par3":350}],"cd_time":6,"exp":10,"rate":0},
+{"id":110,"name":"石料存储棚","icon":"arch_110_png","desc":"石头存储量增加{0}","science":0,"stype":3,"ptype":2,"affect":5,"value":1000,"need":[{"prop":104,"par1":0,"par2":50,"par3":350}],"cd_time":6.5,"exp":10,"rate":0},
+{"id":111,"name":"步兵营","icon":"arch_111_png","desc":"可容纳步兵 5","science":101,"stype":4,"ptype":2,"affect":11,"value":5,"need":[{"prop":105,"par1":0,"par2":40,"par3":160},{"prop":106,"par1":0,"par2":30,"par3":-20}],"cd_time":7,"exp":10,"rate":0},
+{"id":112,"name":"弓手营","icon":"arch_112_png","desc":"可容纳弓箭手 3","science":102,"stype":4,"ptype":2,"affect":12,"value":3,"need":[{"prop":105,"par1":0,"par2":40,"par3":160},{"prop":107,"par1":0,"par2":30,"par3":-20}],"cd_time":7.5,"exp":10,"rate":0},
+{"id":113,"name":"骑兵营","icon":"arch_113_png","desc":"可容纳骑兵 2","science":103,"stype":4,"ptype":2,"affect":13,"value":2,"need":[{"prop":105,"par1":0,"par2":40,"par3":160},{"prop":108,"par1":0,"par2":30,"par3":-20}],"cd_time":8,"exp":10,"rate":0},
+{"id":114,"name":"龙穴","icon":"arch_114_png","desc":"可容纳龙 1","science":104,"stype":4,"ptype":2,"affect":14,"value":1,"need":[{"prop":105,"par1":400,"par2":0,"par3":0},{"prop":109,"par1":100,"par2":0,"par3":-50}],"cd_time":11,"exp":10,"rate":0}
+]

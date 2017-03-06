@@ -1,0 +1,11 @@
+[
+{"id":100,"name":"农场主","prop_id":40000,"time":120,"desc":"该称号无属性加成","effect":[]},
+{"id":101,"name":"大军阀","prop_id":40001,"time":120,"desc":"该称号无属性加成","effect":[]},
+{"id":102,"name":"敢死队","prop_id":40002,"time":120,"desc":"该称号无属性加成","effect":[]},
+{"id":103,"name":"角斗士","prop_id":40003,"time":120,"desc":"步兵攻击+5%","effect":[{"id":111,"att":1,"type":2,"raise":5}]},
+{"id":104,"name":"神射手","prop_id":40004,"time":120,"desc":"弓手攻击+5%","effect":[{"id":112,"att":1,"type":2,"raise":5}]},
+{"id":105,"name":"圣骑士","prop_id":40005,"time":120,"desc":"骑士攻击+5%","effect":[{"id":113,"att":1,"type":2,"raise":5}]},
+{"id":106,"name":"驯龙者","prop_id":40006,"time":120,"desc":"龙攻击+5%","effect":[{"id":114,"att":1,"type":2,"raise":5}]},
+{"id":107,"name":"这个领主很牛哔","prop_id":40007,"time":720,"desc":"该称号无属性加成","effect":[]},
+{"id":108,"name":"我是杯具","prop_id":40008,"time":120,"desc":"该称号无属性加成","effect":[]}
+]

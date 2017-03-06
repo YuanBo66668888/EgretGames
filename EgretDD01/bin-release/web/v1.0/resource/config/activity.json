@@ -1,0 +1,18 @@
+[
+{"id":6,"name":"首充活动","icon":"board_mainshouchong_png","desc":"","needDesc":"","new":0,"serverdata":0},
+{"id":7,"name":"连续登陆","icon":"board_mainlianxdl_png","desc":"","needDesc":"","new":0,"serverdata":0},
+{"id":8,"name":"实力证明","icon":"board_mainlingz_png","desc":"当前实力: ","needDesc":"达到{0}可获得","new":0,"serverdata":0},
+{"id":1,"name":"新年活动","icon":"board_xinnianhd_png","desc":"","needDesc":"","new":1,"serverdata":0},
+{"id":2,"name":"累计充值","icon":"board_mainleijichong_png","desc":"当前充值金币: ","needDesc":"累计充值{0}金币可获得","new":1,"serverdata":1},
+{"id":4,"name":"累计消费","icon":"board_mainleiji_png","desc":"当前消费金币: ","needDesc":"累计消费{0}金币可获得","new":1,"serverdata":1},
+{"id":5,"name":"连续充值","icon":"board_mainlianchong_png","desc":"连续充值天数: ","needDesc":"连续充值{0}天，即可领取","new":1,"serverdata":1},
+{"id":9,"name":"","icon":"arch_107_png","desc":"","needDesc":"","new":0,"serverdata":0},
+{"id":10,"name":"","icon":"board_mainlibao_png","desc":"","needDesc":"","new":0,"serverdata":0},
+{"id":11,"name":"","icon":"board_mainfuli_png","desc":"","needDesc":"","new":0,"serverdata":0},
+{"id":12,"name":"","icon":"board_juezhanzf_png","desc":"","needDesc":"","new":1,"serverdata":1},
+{"id":13,"name":"","icon":"board_juezhanzd_png","desc":"","needDesc":"","new":1,"serverdata":1},
+{"id":14,"name":"","icon":"board_juezhanze_png","desc":"","needDesc":"","new":1,"serverdata":1},
+{"id":3,"name":"单笔充值","icon":"board_maindandu_png","desc":"","needDesc":"单笔充值{0}金币档可获得","new":1,"serverdata":1},
+{"id":15,"name":"","icon":"board_xianshichong_png","desc":"","needDesc":"","new":1,"serverdata":1},
+{"id":16,"name":"一次充值","icon":"board_mainjias_png","desc":"","needDesc":"","new":1,"serverdata":1}
+]

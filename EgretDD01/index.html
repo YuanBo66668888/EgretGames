@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Egret</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #888888;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/socket/socket.js" src-release="libs/modules/socket/socket.min.js"></script>
+	<script egret="lib" src="libs/modules/dragonBones/dragonBones.js" src-release="libs/modules/dragonBones/dragonBones.min.js"></script>
+	<script egret="lib" src="libs/modules/eui/eui.js" src-release="libs/modules/eui/eui.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <!--other_libs_files_start-->
+    <script egret="lib" src="polyfill/promise.js" src-release="polyfill/promise.min.js"></script>
+    <!--other_libs_files_end-->
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script egret="game" src="bin-debug/Base/BaseClass.js"></script>
+	<script egret="game" src="bin-debug/Manager/SceneManager.js"></script>
+	<script egret="game" src="bin-debug/Common/BitmapNumber.js"></script>
+	<script egret="game" src="bin-debug/Common/GameConfig.js"></script>
+	<script egret="game" src="bin-debug/Common/Http.js"></script>
+	<script egret="game" src="bin-debug/Common/Lan.js"></script>
+	<script egret="game" src="bin-debug/Common/MessageCenter.js"></script>
+	<script egret="game" src="bin-debug/Common/Socket.js"></script>
+	<script egret="game" src="bin-debug/Common/UserInfo.js"></script>
+	<script egret="game" src="bin-debug/Common/UTFMsg.js"></script>
+	<script egret="game" src="bin-debug/Common/Ws.js"></script>
+	<script egret="game" src="bin-debug/Utils/StringUtils.js"></script>
+	<script egret="game" src="bin-debug/Manager/ActivityManager.js"></script>
+	<script egret="game" src="bin-debug/Manager/ActManager.js"></script>
+	<script egret="game" src="bin-debug/Manager/BagManager.js"></script>
+	<script egret="game" src="bin-debug/Manager/ChatManager.js"></script>
+	<script egret="game" src="bin-debug/Manager/ControllerManager.js"></script>
+	<script egret="game" src="bin-debug/Manager/GuideManager.js"></script>
+	<script egret="game" src="bin-debug/Manager/NetMsgManager.js"></script>
+	<script egret="game" src="bin-debug/Manager/RandomEventManager.js"></script>
+	<script egret="game" src="bin-debug/Manager/RenderTextureManager.js"></script>
+	<script egret="game" src="bin-debug/Manager/ResVersionManager.js"></script>
+	<script egret="game" src="bin-debug/Base/BaseController.js"></script>
+	<script egret="game" src="bin-debug/Manager/SDKSetAGameManager.js"></script>
+	<script egret="game" src="bin-debug/Manager/SoundManager.js"></script>
+	<script egret="game" src="bin-debug/Manager/TaskManager.js"></script>
+	<script egret="game" src="bin-debug/Manager/TimerManager.js"></script>
+	<script egret="game" src="bin-debug/Manager/UnionDataManager.js"></script>
+	<script egret="game" src="bin-debug/Manager/ViewManager.js"></script>
+	<script egret="game" src="bin-debug/Utils/ArrayUtils.js"></script>
+	<script egret="game" src="bin-debug/Utils/CommonUtils.js"></script>
+	<script egret="game" src="bin-debug/Utils/DateUtils.js"></script>
+	<script egret="game" src="bin-debug/Utils/DebugUtils.js"></script>
+	<script egret="game" src="bin-debug/Utils/DeviceUtils.js"></script>
+	<script egret="game" src="bin-debug/Utils/DisplayUtils.js"></script>
+	<script egret="game" src="bin-debug/Utils/EffectUtils.js"></script>
+	<script egret="game" src="bin-debug/Utils/EgretExpandUtils.js"></script>
+	<script egret="game" src="bin-debug/Utils/KeyboardUtils.js"></script>
+	<script egret="game" src="bin-debug/Utils/MathUtils.js"></script>
+	<script egret="game" src="bin-debug/Utils/RandomUtils.js"></script>
+	<script egret="game" src="bin-debug/Utils/ResourceUtils.js"></script>
+	<script egret="game" src="bin-debug/Utils/RockerUtils.js"></script>
+	<script egret="game" src="bin-debug/Utils/ShockUtils.js"></script>
+	<script egret="game" src="bin-debug/Utils/StageUtils.js"></script>
+	<script egret="game" src="bin-debug/Const/LoginConst.js"></script>
+	<script egret="game" src="bin-debug/Const/MainConst.js"></script>
+	<script egret="game" src="bin-debug/Const/MatConst.js"></script>
+	<script egret="game" src="bin-debug/Const/NationConsts.js"></script>
+	<script egret="game" src="bin-debug/Const/NumberStringConst.js"></script>
+	<script egret="game" src="bin-debug/Const/PanelConst.js"></script>
+	<script egret="game" src="bin-debug/Const/SceneConsts.js"></script>
+	<script egret="game" src="bin-debug/Const/ViewConst.js"></script>
+	<script egret="game" src="bin-debug/Controller/BuildController.js"></script>
+	<script egret="game" src="bin-debug/Controller/BulletScreenController.js"></script>
+	<script egret="game" src="bin-debug/Controller/FightController.js"></script>
+	<script egret="game" src="bin-debug/Common/DH.js"></script>
+	<script egret="game" src="bin-debug/Controller/GuideController.js"></script>
+	<script egret="game" src="bin-debug/Controller/HomeController.js"></script>
+	<script egret="game" src="bin-debug/Controller/JehadController.js"></script>
+	<script egret="game" src="bin-debug/Controller/LoadingController.js"></script>
+	<script egret="game" src="bin-debug/Controller/LoginController.js"></script>
+	<script egret="game" src="bin-debug/Controller/MainController.js"></script>
+	<script egret="game" src="bin-debug/GameMain.js"></script>
+	<script egret="game" src="bin-debug/LoadingUI.js"></script>
+	<script egret="game" src="bin-debug/Main.js"></script>
+	<script egret="game" src="bin-debug/Common/DynamicChange.js"></script>
+	<script egret="game" src="bin-debug/Base/BaseGuiLayer.js"></script>
+	<script egret="game" src="bin-debug/Common/GameNote.js"></script>
+	<script egret="game" src="bin-debug/Common/HotspotBitmap.js"></script>
+	<script egret="game" src="bin-debug/Base/BaseProxy.js"></script>
+	<script egret="game" src="bin-debug/Common/Keyboard.js"></script>
+	<script egret="game" src="bin-debug/Manager/LanManager.js"></script>
+	<script egret="game" src="bin-debug/Manager/LayerManager.js"></script>
+	<script egret="game" src="bin-debug/Manager/MailManager.js"></script>
+	<script egret="game" src="bin-debug/Manager/MatManager.js"></script>
+	<script egret="game" src="bin-debug/Base/BaseScene.js"></script>
+	<script egret="game" src="bin-debug/Manager/PanelManager.js"></script>
+	<script egret="game" src="bin-debug/Common/Log.js"></script>
+	<script egret="game" src="bin-debug/Common/Login.js"></script>
+	<script egret="game" src="bin-debug/Manager/ReportManager.js"></script>
+	<script egret="game" src="bin-debug/Common/md5.js"></script>
+	<script egret="game" src="bin-debug/Common/AssetAdapter.js"></script>
+	<script egret="game" src="bin-debug/Common/MessageVo.js"></script>
+	<script egret="game" src="bin-debug/Common/ObjectLabel.js"></script>
+	<script egret="game" src="bin-debug/Common/ObjectPool.js"></script>
+	<script egret="game" src="bin-debug/Common/Percent.js"></script>
+	<script egret="game" src="bin-debug/Common/ProxyUpdate.js"></script>
+	<script egret="game" src="bin-debug/Common/QueueExecutor.js"></script>
+	<script egret="game" src="bin-debug/Manager/WarManager.js"></script>
+	<script egret="game" src="bin-debug/Scene/LoadingScene.js"></script>
+	<script egret="game" src="bin-debug/Scene/UIScene.js"></script>
+	<script egret="game" src="bin-debug/Showcase.js"></script>
+	<script egret="game" src="bin-debug/ThemeAdapter.js"></script>
+	<script egret="game" src="bin-debug/Utils/AnchorUtils.js"></script>
+	<script egret="game" src="bin-debug/App.js"></script>
+	<script egret="game" src="bin-debug/Utils/AverageUtils.js"></script>
+	<script egret="game" src="bin-debug/Common/TimerHandler.js"></script>
+	<script egret="game" src="bin-debug/Common/BuildTimer.js"></script>
+	<script egret="game" src="bin-debug/Common/ByteArrayMsg.js"></script>
+	<script egret="game" src="bin-debug/Common/UTFMsgByJson.js"></script>
+	<script egret="game" src="bin-debug/Common/CallBackFunctions.js"></script>
+	<script egret="game" src="bin-debug/Const/ArmyConst.js"></script>
+	<script egret="game" src="bin-debug/Const/BulletScreenConst.js"></script>
+	<script egret="game" src="bin-debug/Const/ControllerConst.js"></script>
+	<script egret="game" src="bin-debug/Const/FightConst.js"></script>
+	<script egret="game" src="bin-debug/Const/GuideConst.js"></script>
+	<script egret="game" src="bin-debug/Const/HomeConst.js"></script>
+	<script egret="game" src="bin-debug/Const/HttpConst.js"></script>
+	<script egret="game" src="bin-debug/Const/JehadConst.js"></script>
+	<script egret="game" src="bin-debug/Const/LoadingConst.js"></script>
+	<script egret="game" src="bin-debug/Controller/GiftController.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="auto"
+         data-scale-mode="showAll"
+         data-frame-rate="30"
+         data-content-width="640"
+         data-content-height="1136"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+    <script>
+        /**
+         * {
+         * "renderMode":, //引擎渲染模式，"canvas" 或者 "webgl"
+         * "audioType": "" //使用的音频类型，0:默认，1:qq audio，2:web audio，3:audio
+         * "antialias": //WebGL模式下是否开启抗锯齿，true:开启，false:关闭，默认为false
+         * }
+         **/
+        egret.runEgret({renderMode:"webgl", audioType:0});
+    </script>
+</body>
+</html>

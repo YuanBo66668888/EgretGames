@@ -1,0 +1,4 @@
+class HomeConst {
+	public constructor() {
+	}
+}

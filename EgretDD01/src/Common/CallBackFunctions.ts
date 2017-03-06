@@ -1,0 +1,4 @@
+class CallBackFunctions {
+	public constructor() {
+	}
+}

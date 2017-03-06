@@ -1,0 +1,4 @@
+class UIScene {
+	public constructor() {
+	}
+}

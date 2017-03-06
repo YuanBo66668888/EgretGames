@@ -1,0 +1,30 @@
+{
+	"resources": [
+        {
+            "name": "loading_bg",
+            "type": "image",
+            "url": "assets/texture/loading_bg.jpg"
+        },
+        {
+            "name":"texture01",
+            "type":"sheet",
+            "url":"assets/texture/texture01.json"
+        },
+        {
+            "name":"NumberTexture",
+            "type":"sheet",
+            "url":"assets/texture/NumberTexture.json"
+        },
+        {
+            "name":"common",
+            "type":"sheet",
+            "url":"assets/texture/common.json"
+        }
+	],
+	"groups": [
+        {
+            "name": "preload",
+            "keys": "loading_bg, texture01, NumberTexture, common"
+        }
+	]
+}
